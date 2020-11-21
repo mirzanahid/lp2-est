@@ -1,0 +1,1469 @@
+@media (min-width:320px) and (max-width:575px) {
+
+
+
+
+
+
+    /* ====================================
+             nav bar start
+       ====================================*/
+
+    .navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .navbar .tx0 {
+        display: none;
+    }
+
+    .navbar button {
+        outline: none;
+    }
+
+    nav ul li .tx1 {
+        display: block !important;
+        border: 0;
+        margin-top: 30px;
+    }
+
+    nav ul li .tx2 {
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        z-index: 99999999;
+        background-color: #fff;
+        padding-bottom: 20px !important;
+        text-align: center;
+    }
+
+    .navbar .bar {
+        outline: 0 !important;
+    }
+
+
+
+    /* ====================================
+             nav bar end
+       ====================================*/
+
+    /* ====================================
+             banner part start
+       ====================================*/
+    #banner-part {
+        height: 540px;
+        margin-top: 80px;
+    }
+
+    #banner-part img {
+        height: 570px;
+    }
+
+    #banner-part .text {
+        bottom: 30px;
+        left: 16px;
+    }
+
+    #banner-part .text h2 {
+        font-size: 30px;
+    }
+
+    #banner-part .text p {
+        font-size: 20px;
+        width: 265px;
+    }
+
+    #banner-part .banner-btn {
+        font-size: 16px;
+        padding: 10px 24px;
+        margin-top: 20px;
+    }
+
+
+
+
+    /* ====================================
+             banner part end
+       ====================================*/
+    /* ====================================
+             banner2 part start
+       ====================================*/
+    #banner2-part {
+        height: 600px;
+        margin-top: 80px;
+
+    }
+
+    #banner2-part .shape1 {
+        height: 600px;
+    }
+
+    #banner2-part .shape2 {
+        display: none;
+    }
+
+    #banner2-part .text {
+        bottom: 35px;
+        left: 20px;
+    }
+
+    #banner2-part .text h2 {
+        font-size: 24px;
+        width: 200px;
+    }
+
+    #banner2-part .text p {
+        font-size: 20px;
+        width: 230px;
+        line-height: 20px;
+        margin-top: 5px;
+        ;
+    }
+
+    #banner2-part .banner-btn {
+        font-size: 18px;
+        padding: 12px 20px;
+        margin-top: 20px;
+    }
+
+
+
+    /* ====================================
+             banner2 part end
+       ====================================*/
+    /* ====================================
+             access part start
+       ====================================*/
+    #access-part .title {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    #access-part .title h2 {
+        font-size: 18px;
+        width: auto;
+    }
+
+
+
+    #access-part .text p {
+        font-size: 14px;
+        width: auto;
+    }
+
+    #access-part .box {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #access-part .slick-list {
+        margin-left: 10px;
+    }
+    /* ====================================
+             access part end
+       ====================================*/
+
+    /* ====================================
+             comercial part start
+       ====================================*/
+    #comercial-part {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    #comercial-part .text {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    #comercial-part .text h2 {
+        font-size: 20px;
+        width: auto;
+    }
+
+    #comercial-part .text p {
+        font-size: 16px;
+        width: auto;
+        margin-top: 20px;
+
+    }
+
+    #comercial-part .text .com-btn {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+
+
+
+
+    /* ====================================
+             comercial part end
+       ====================================*/
+
+
+    /* ====================================
+             power part start
+       ====================================*/
+
+    #power-part {
+        padding: 20px 0;
+    }
+
+    #power-part .title h2 {
+        font-size: 20px;
+    }
+
+    #power-part .box {
+        margin-bottom: 20px;
+    }
+
+    #power-part .box h2 {
+        font-size: 16px;
+    }
+
+    #power-part .box ul li {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+
+    /* ====================================
+             power part end
+       ====================================*/
+    /* ====================================
+             platform part start
+       ====================================*/
+
+    #platform-part {
+        padding: 30px 0;
+    }
+
+    #platform-part .title h2 {
+        font-size: 20px;
+    }
+
+
+    #platform-part .text ul li {
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+
+    /* ====================================
+             platform part end
+       ====================================*/
+
+    /* ====================================
+             assets part start
+       ====================================*/
+    #assets-part {
+        padding-top: 30px;
+    }
+
+    #assets-part .title h2 {
+        font-size: 18px;
+        width: 300px;
+        margin: auto;
+
+    }
+
+
+    #assets-part .slick-list {
+        margin-left: 10px;
+    }
+
+    /* ====================================
+             assets part end
+       ====================================*/
+
+    /* ====================================
+             cover part start
+       ====================================*/
+
+
+
+    #cover-part .text {
+        margin-top: 30px;
+    }
+
+    #cover-part .text h3 {
+        font-size: 20px;
+    }
+
+    #cover-part .text ul li {
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+
+    #cover-part .main-box {
+        display: block;
+    }
+
+    #cover-part .box {
+        margin-top: 10px;
+        padding: 15px 0;
+        width: auto;
+    }
+
+    #cover-part .box h3 {
+        font-size: 18px;
+        width: auto;
+    }
+
+    #cover-part .box h3 span {
+        font-size: 18px;
+
+    }
+
+    /* ====================================
+             cover part end
+       ====================================*/
+
+
+
+    /* ====================================
+             video part start
+       ====================================*/
+
+    #video-part {
+        padding: 30px 0;
+    }
+
+    #video-part .title h2 {
+        font-size: 20px;
+        width: 300px;
+        margin: auto;
+    }
+
+    #video-part .box {
+        height: 380px;
+    }
+
+    #video-part .box .overlay img {
+        margin-top: 65%;
+        transform: scale(0.9);
+    }
+
+    #video-part .box .overlay img:hover {
+        transform: scale(1);
+    }
+
+    /* ====================================
+             video part end
+       ====================================*/
+
+
+    /* ====================================
+             industry part start
+       ====================================*/
+    #industry-part {
+        padding: 30px 0;
+    }
+
+    #industry-part .title h2 {
+        font-size: 20px;
+    }
+
+    #industry-part .box {
+        padding: 20px;
+    }
+
+    #industry-part .text {
+        margin-left: 20px;
+    }
+
+    #industry-part .text h4 {
+        font-size: 16px;
+    }
+
+    #industry-part .text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #industry-part .icon img {
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+
+    /* ====================================
+             industry part end
+       ====================================*/
+
+
+    /* ====================================
+             footer part start
+       ====================================*/
+    #footer-part {
+        height: 920px;
+    }
+
+    #footer-part .box {
+        width: 290px;
+    }
+
+    #footer-part .footer-btn {
+        font-size: 18px;
+        padding: 15px 90px;
+    }
+
+    #footer-part .box {
+        margin-left: 0;
+        bottom: 300px;
+    }
+
+    #footer-part .shape1 {
+        left: -160px;
+    }
+
+    #footer-part .shape2 {
+        display: none;
+    }
+
+    #footer-part .box2 {
+        text-align: center;
+        right: 10px;
+        bottom: 30px;
+    }
+
+    #footer-part .box2 h3 {
+        font-size: 30px;
+    }
+
+    #footer-part .box2 p {
+        font-size: 24px;
+        line-height: 30px;
+        width: 300px;
+        margin: auto;
+        ;
+    }
+
+    #footer-part .box3 {
+        text-align: center;
+        right: 10px;
+        bottom: 23px;
+    }
+
+    #footer-part .box3 h3 {
+        font-size: 18px;
+        width: 300px;
+    }
+
+    #footer-part .box3 p {
+        font-size: 18px;
+        line-height: 20px;
+        width: 290px;
+        margin: auto;
+    }
+
+
+    /* ====================================
+             footer part end
+       ====================================*/
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+
+
+    /* ====================================
+             nav bar start
+       ====================================*/
+
+    .navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .navbar .tx0 {
+        margin-right: 190px;
+    }
+
+    .navbar .tx1 {
+        display: none;
+    }
+
+    .navbar button {
+        outline: none;
+    }
+
+    nav ul li .tx1 {
+        border: 0;
+        margin-top: 30px;
+    }
+
+    nav ul li .tx2 {
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        z-index: 99999999;
+        background-color: #fff;
+        padding-bottom: 20px !important;
+        text-align: center;
+    }
+
+    .navbar .bar {
+        outline: 0 !important;
+    }
+
+
+
+    /* ====================================
+          nav bar end
+    ====================================*/
+
+    /* ====================================
+          banner part start
+    ====================================*/
+    #banner-part {
+        height: 600px;
+        margin-top: 80px;
+    }
+
+    #banner-part img {
+        height: 570px;
+    }
+
+    #banner-part .text {
+        bottom: 40px;
+        left: 40px;
+    }
+
+    #banner-part .text h2 {
+        font-size: 30px;
+    }
+
+    #banner-part .text p {
+        font-size: 20px;
+        width: 265px;
+    }
+
+    #banner-part .banner-btn {
+        font-size: 16px;
+        padding: 10px 24px;
+        margin-top: 20px;
+    }
+
+
+
+
+    /* ====================================
+          banner part end
+    ====================================*/
+    /* ====================================
+             banner2 part start
+       ====================================*/
+    #banner2-part {
+        height: 600px;
+        margin-top: 80px;
+
+    }
+
+    #banner2-part .shape1 {
+        height: 512px;
+    }
+
+    #banner2-part .shape2 {
+        left: 335px;
+        height: 228px;
+    }
+
+    #banner2-part .text {
+        bottom: 40px;
+        left: 36px;
+    }
+
+    #banner2-part .text h2 {
+        font-size: 24px;
+        width: 250px;
+    }
+
+    #banner2-part .text p {
+        font-size: 20px;
+        width: 271px;
+        line-height: 20px;
+        margin-top: 5px;
+        ;
+    }
+
+    #banner2-part .banner-btn {
+        font-size: 18px;
+        padding: 12px 20px;
+        margin-top: 20px;
+    }
+
+
+
+    /* ====================================
+            banner2 part end
+      ====================================*/
+    /* ====================================
+            access part start
+      ====================================*/
+    #access-part .title {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    #access-part .title h2 {
+        font-size: 24px;
+        width: auto;
+    }
+
+
+
+    #access-part .text p {
+        font-size: 20px;
+        width: auto;
+    }
+
+    #access-part .box {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #access-part .slick-list {
+        margin-left: 10px;
+    }
+
+  
+    /* ====================================
+            access part end
+      ====================================*/
+
+    /* ====================================
+            comercial part start
+      ====================================*/
+    #comercial-part {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    #comercial-part .text {
+        margin-top: 20px;
+        margin-left: 0;
+        ;
+    }
+
+    #comercial-part .text h2 {
+        font-size: 24px;
+        width: auto;
+    }
+
+    #comercial-part .text p {
+        font-size: 20px;
+        width: auto;
+        margin-top: 20px;
+
+    }
+
+    #comercial-part .text .com-btn {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+
+
+
+    /* ====================================
+            comercial part end
+      ====================================*/
+
+
+    /* ====================================
+            power part start
+      ====================================*/
+
+    #power-part {
+        padding: 20px 0;
+    }
+
+    #power-part .title h2 {
+        font-size: 24px;
+    }
+
+    #power-part .box {
+        margin-bottom: 20px;
+    }
+
+    #power-part .box h2 {
+        font-size: 18px;
+    }
+
+    #power-part .box ul li {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    /* ====================================
+            power part end
+      ====================================*/
+    /* ====================================
+             platform part start
+       ====================================*/
+
+    #platform-part {
+        padding: 30px 0;
+    }
+
+    #platform-part .title h2 {
+        font-size: 24px;
+    }
+
+
+    #platform-part .text ul li {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+
+    /* ====================================
+             platform part end
+       ====================================*/
+
+    /* ====================================
+             assets part start
+       ====================================*/
+    #assets-part {
+        padding-top: 30px;
+    }
+
+    #assets-part .title h2 {
+        font-size: 24px;
+        width: auto;
+        margin: auto;
+
+    }
+
+
+    #assets-part .slick-list {
+        margin-left: 10px;
+    }
+
+    /* ====================================
+             assets part end
+       ====================================*/
+
+    /* ====================================
+             cover part start
+       ====================================*/
+
+
+
+    #cover-part .text {
+        margin-top: 30px;
+    }
+
+    #cover-part .text h3 {
+        font-size: 24px;
+    }
+
+    #cover-part .text ul li {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+
+    #cover-part .main-box {
+        display: block;
+    }
+
+    #cover-part .box {
+        margin-top: 10px;
+        padding: 20px 0;
+        width: auto;
+    }
+
+    #cover-part .box h3 {
+        font-size: 20px;
+        width: auto;
+    }
+
+    #cover-part .box h3 span {
+        font-size: 18px;
+
+    }
+
+    /* ====================================
+             cover part end
+       ====================================*/
+
+
+
+
+    /* ====================================
+             video part start
+       ====================================*/
+
+    #video-part {
+        padding: 30px 0;
+    }
+
+    #video-part .title h2 {
+        font-size: 24px;
+        width: 300px;
+        margin: auto;
+    }
+
+    #video-part .box {
+        height: 380px;
+    }
+
+    #video-part .box .overlay img {
+        margin-top: 35%;
+        transform: scale(0.9);
+    }
+
+    #video-part .box .overlay img:hover {
+        transform: scale(1);
+    }
+
+    /* ====================================
+             video part end
+       ====================================*/
+
+
+    /* ====================================
+             industry part start
+       ====================================*/
+    #industry-part {
+        padding: 30px 0;
+    }
+
+    #industry-part .title h2 {
+        font-size: 24px;
+    }
+
+    #industry-part .box {
+        padding: 20px;
+    }
+
+    #industry-part .text {
+        margin-left: 20px;
+    }
+
+    #industry-part .text h4 {
+        font-size: 18px;
+    }
+
+    #industry-part .text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #industry-part .icon img {
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+
+    /* ====================================
+             industry part end
+       ====================================*/
+
+    /* ====================================
+             footer part start
+       ====================================*/
+    #footer-part {
+        height: 920px;
+    }
+
+    #footer-part .box {
+        width: 290px;
+    }
+
+    #footer-part .footer-btn {
+        font-size: 18px;
+        padding: 15px 90px;
+    }
+
+    #footer-part .box {
+        margin-left: 0;
+        bottom: 300px;
+        left: 150px;
+    }
+
+    #footer-part .shape1 {
+        left: -50px;
+    }
+
+    #footer-part .shape2 {
+        display: none;
+    }
+
+    #footer-part .box2 {
+        text-align: center;
+        right: 130px;
+        bottom: 30px;
+    }
+
+    #footer-part .box2 h3 {
+        font-size: 30px;
+    }
+
+    #footer-part .box2 p {
+        font-size: 24px;
+        line-height: 30px;
+        width: 300px;
+        margin: auto;
+        ;
+    }
+
+    #footer-part .box3 h3 {
+        font-size: 22px;
+        width: 320px;
+    }
+
+    #footer-part .box3 p {
+        font-size: 18px;
+        line-height: 18px;
+        width: 307px;
+        margin: auto
+    }
+
+
+
+    /* ====================================
+          footer part end
+    ====================================*/
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+
+    /* ====================================
+             nav bar start
+       ====================================*/
+
+    .navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .navbar .tx0 {
+        margin-right: 360px;
+    }
+
+    .navbar .tx1 {
+        display: none;
+    }
+
+    .navbar button {
+        outline: none;
+    }
+
+    nav ul li .tx1 {
+        border: 0;
+        margin-top: 30px;
+    }
+
+    nav ul li .tx2 {
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        z-index: 99999999;
+        background-color: #fff;
+        padding-bottom: 20px !important;
+        text-align: center;
+    }
+
+    .navbar .bar {
+        outline: 0 !important;
+    }
+
+
+
+    /* ====================================
+          nav bar end
+    ====================================*/
+
+    /* ====================================
+          banner part start
+    ====================================*/
+    #banner-part {
+        height: 600px;
+        margin-top: 80px;
+    }
+
+    #banner-part img {
+        height: 570px;
+    }
+
+    #banner-part .text {
+        bottom: 40px;
+        left: 40px;
+    }
+
+    #banner-part .text h2 {
+        font-size: 30px;
+    }
+
+    #banner-part .text p {
+        font-size: 20px;
+        width: 265px;
+    }
+
+    #banner-part .banner-btn {
+        font-size: 16px;
+        padding: 10px 24px;
+        margin-top: 20px;
+    }
+
+
+
+
+    /* ====================================
+          banner part end
+    ====================================*/
+    /* ====================================
+             banner2 part start
+       ====================================*/
+    #banner2-part {
+        height: 600px;
+        margin-top: 80px;
+
+    }
+
+    #banner2-part .shape1 {
+        height: 550px;
+    }
+
+    #banner2-part .shape2 {
+        left: 375px;
+        height: 245px;
+    }
+
+    #banner2-part .text {
+        bottom: 50px;
+        left: 45px;
+    }
+
+    #banner2-part .text h2 {
+        font-size: 24px;
+        width: 250px;
+    }
+
+    #banner2-part .text p {
+        font-size: 20px;
+        width: 271px;
+        line-height: 24px;
+        margin-top: 5px;
+        ;
+    }
+
+    #banner2-part .banner-btn {
+        font-size: 18px;
+        padding: 12px 20px;
+        margin-top: 25px;
+    }
+
+
+
+    /* ====================================
+            banner2 part end
+      ====================================*/
+    /* ====================================
+            access part start
+      ====================================*/
+    #access-part .title {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    #access-part .title h2 {
+        font-size: 30px;
+        width: auto;
+    }
+
+
+
+    #access-part .text p {
+        font-size: 24px;
+        width: auto;
+    }
+
+    #access-part .box {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    /* ====================================
+            access part end
+      ====================================*/
+
+    /* ====================================
+            comercial part start
+      ====================================*/
+    #comercial-part {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    #comercial-part .text {
+        margin-top: 20px;
+        margin-left: 0;
+        ;
+    }
+
+    #comercial-part .text h2 {
+        font-size: 30px;
+        width: auto;
+    }
+
+    #comercial-part .text p {
+        font-size: 24px;
+        width: auto;
+        margin-top: 20px;
+
+    }
+
+    #comercial-part .text .com-btn {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+
+
+
+
+    /* ====================================
+            comercial part end
+      ====================================*/
+
+
+    /* ====================================
+            power part start
+      ====================================*/
+
+    #power-part {
+        padding: 20px 0;
+    }
+
+    #power-part .title h2 {
+        font-size: 30px;
+    }
+
+    #power-part .box {
+        margin-bottom: 20px;
+    }
+
+    #power-part .box h2 {
+        font-size: 20px;
+    }
+
+    #power-part .box ul li {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+
+    /* ====================================
+            power part end
+      ====================================*/
+
+    /* ====================================
+             platform part start
+       ====================================*/
+
+    #platform-part {
+        padding: 30px 0;
+    }
+
+    #platform-part .title h2 {
+        font-size: 30px;
+    }
+
+
+    #platform-part .text ul li {
+        font-size: 24px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+
+    /* ====================================
+             platform part end
+       ====================================*/
+
+    /* ====================================
+             assets part start
+       ====================================*/
+    #assets-part {
+        padding-top: 30px;
+    }
+
+    #assets-part .title h2 {
+        font-size: 31px;
+        width: auto;
+        margin: auto;
+
+    }
+
+
+    #assets-part .slick-list {
+        margin-left: 10px;
+    }
+
+    /* ====================================
+             assets part end
+       ====================================*/
+
+    /* ====================================
+             cover part start
+       ====================================*/
+
+
+
+    #cover-part .text {
+        margin-top: 30px;
+    }
+
+    #cover-part .text h3 {
+        font-size: 30px;
+    }
+
+    #cover-part .text ul li {
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+
+    #cover-part .main-box {
+        display: block;
+    }
+
+    #cover-part .box {
+        margin-top: 10px;
+        padding: 30px 0;
+        width: auto;
+    }
+
+    #cover-part .box h3 {
+        font-size: 20px;
+        width: auto;
+    }
+
+    #cover-part .box h3 span {
+        font-size: 18px;
+
+    }
+
+    /* ====================================
+             cover part end
+       ====================================*/
+
+
+
+
+    /* ====================================
+             video part start
+       ====================================*/
+
+    #video-part {
+        padding: 30px 0;
+    }
+
+    #video-part .title h2 {
+        font-size: 30px;
+        width: auto;
+        margin: auto;
+    }
+
+    #video-part .box {
+        height: 380px;
+    }
+
+    #video-part .box .overlay img {
+        margin-top: 25%;
+        transform: scale(0.9);
+    }
+
+    #video-part .box .overlay img:hover {
+        transform: scale(1);
+    }
+
+    /* ====================================
+             video part end
+       ====================================*/
+
+
+    /* ====================================
+             industry part start
+       ====================================*/
+    #industry-part {
+        padding: 30px 0;
+    }
+
+    #industry-part .title h2 {
+        font-size: 30px;
+    }
+
+    #industry-part .box {
+        padding: 20px;
+    }
+
+    #industry-part .text {
+        margin-left: 20px;
+    }
+
+    #industry-part .text h4 {
+        font-size: 20px;
+    }
+
+    #industry-part .text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #industry-part .icon img {
+        margin-top: 15px;
+    }
+
+
+
+
+
+
+
+    /* ====================================
+             industry part end
+       ====================================*/
+    /* ====================================
+             footer part start
+       ====================================*/
+    #footer-part {
+        height: 650px;
+    }
+
+    #footer-part .box {
+        width: 290px;
+    }
+
+    #footer-part .footer-btn {
+        font-size: 18px;
+        padding: 15px 90px;
+    }
+
+    #footer-part .box {
+        margin-left: 0;
+        bottom: 30px;
+
+    }
+
+    #footer-part .shape1 {
+        left: -250px;
+    }
+
+    #footer-part .shape2 {
+        display: none;
+
+    }
+
+    #footer-part .box2 {
+        text-align: center;
+        right: 80px;
+        bottom: 75px;
+    }
+
+    #footer-part .box2 h3 {
+        font-size: 30px;
+    }
+
+    #footer-part .box2 p {
+        font-size: 24px;
+        line-height: 30px;
+        width: 300px;
+        margin: auto;
+        ;
+    }
+
+    #footer-part .box3 {
+        bottom: 70px;
+    }
+
+    #footer-part .box3 h3 {
+        font-size: 24px;
+        width: 320px;
+    }
+
+    #footer-part .box3 p {
+        font-size: 20px;
+        line-height: 24px;
+        width: 307px;
+        margin: auto
+    }
+
+
+
+
+    /* ====================================
+          footer part end
+    ====================================*/
+
+
+
+}

@@ -1,0 +1,1122 @@
+/* ==================================================
+                common css start
+  ==================================================*/
+
+  @import url(https://db.onlinewebfonts.com/c/123c7e674188c97798dd39cd41ff2d85?family=Brown+Regular);
+  @import url(https://db.onlinewebfonts.com/c/4150d76a852e1c349e0b6fe15f29d9ca?family=Brown+Bold);
+  @import url(https://db.onlinewebfonts.com/c/25a80cdcaa2c810a688fd0ce35c07fa5?family=PT+Sans);
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+} 
+
+ h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}  
+
+
+  /* brwn font regular */
+  @font-face {font-family: "Brown Regular"; src: url("https://db.onlinewebfonts.com/t/123c7e674188c97798dd39cd41ff2d85.eot"); src: url("//db.onlinewebfonts.com/t/123c7e674188c97798dd39cd41ff2d85.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/123c7e674188c97798dd39cd41ff2d85.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/123c7e674188c97798dd39cd41ff2d85.woff") format("woff"), url("//db.onlinewebfonts.com/t/123c7e674188c97798dd39cd41ff2d85.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/123c7e674188c97798dd39cd41ff2d85.svg#Brown Regular") format("svg"); }
+ 
+  /* brwn font bold */
+  @font-face {font-family: "Brown Bold"; src: url("https://db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.eot"); src: url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.woff") format("woff"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4150d76a852e1c349e0b6fe15f29d9ca.svg#Brown Bold") format("svg"); }
+
+/* pt sans font regular */
+@font-face {font-family: "PT Sans"; src: url("https://db.onlinewebfonts.com/t/25a80cdcaa2c810a688fd0ce35c07fa5.eot"); src: url("//db.onlinewebfonts.com/t/25a80cdcaa2c810a688fd0ce35c07fa5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/25a80cdcaa2c810a688fd0ce35c07fa5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/25a80cdcaa2c810a688fd0ce35c07fa5.woff") format("woff"), url("//db.onlinewebfonts.com/t/25a80cdcaa2c810a688fd0ce35c07fa5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/25a80cdcaa2c810a688fd0ce35c07fa5.svg#PT Sans") format("svg"); }
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title h2 {
+    font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 140%;
+    /* or 42px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+/*==================================================
+                common css end
+  ==================================================*/
+
+
+/*==================================================
+                nav css start
+  ==================================================*/
+
+nav {
+
+  padding-top: 20px  !important;
+  padding-bottom: 40px !important;
+    z-index: 9999999;
+    transition: .4s;
+}
+nav li{
+    list-style: none;
+}
+
+
+nav  .tx0 {
+    display: inline-block;
+   font-family: "Brown Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    border-left: 2px solid #000;
+
+
+
+}
+
+nav  .tx0:hover {
+    color: #000000;
+}
+nav  .tx1 {
+    display: inline-block;
+   font-family: "Brown Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    border-left: 2px solid #000;
+
+
+
+}
+nav  .tx1{
+    display: none;
+}
+nav  .tx1:hover {
+    color: #000000;
+}
+
+nav ul li .tx2 {
+    font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0957A4;
+    margin-left: 60px;
+}
+
+nav ul li .tx2:hover {
+    color: #0957A4;
+}
+
+
+nav .nav-btn {
+    display: inline-block;
+    font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15.22px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0957A4;
+    background: #FAC11C;
+    padding: 12px 25px;
+    transition: .4s;
+    border: 1px solid #FAC11C;
+}
+
+nav .nav-btn:hover {
+    color: #FAC11C;
+    border: 1px solid #FAC11C;
+    background: #ffffff;
+}
+
+
+
+.sticky {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100%;
+    background: #ffffff;
+
+
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+/*==================================================
+                nav css end
+  ==================================================*/
+
+
+
+/*==================================================
+                banner css start
+  ==================================================*/
+
+
+#banner-part {
+    background: url(../images/L1/banner.png) no-repeat center;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+}
+
+
+#banner-part img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    height: 820px;
+
+
+
+
+}
+
+#banner-part .text {
+    text-align: left;
+    position: absolute;
+    z-index: 999;
+    bottom: 163px;
+    left: 150px;
+}
+
+#banner-part .text h2 {
+  font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 140%;
+    /* or 42px */
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#banner-part p {
+    font-family: "Brown Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 410px;
+   
+}
+
+
+#banner-part .banner-btn {
+    display: inline-block;
+    font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20.22px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #04AFE6;
+    ;
+    color: #000000;
+    background: #04AFE6;
+    padding: 15px 88px;
+    margin-top: 40px;
+    transition: .4s;
+}
+
+#banner-part .banner-btn:hover {
+    color: #04AFE6;
+    border: 1px solid #04AFE6;
+    background: transparent;
+}
+
+
+/*==================================================
+                banner css end
+  ==================================================*/
+/*==================================================
+                banner2 css start
+  ==================================================*/
+#banner2-part {
+    background: url(../images/L2/banner-img.png) no-repeat center;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#banner2-part .shape1 {
+    position: absolute;
+    bottom: -160px;
+    left: -290px;
+
+    height: 700px;
+
+}
+#banner2-part .shape2 {
+    position: absolute;
+    bottom: -70px;
+    left: 540px;
+
+    height: 300px;
+    z-index: 10;
+
+}
+
+#banner2-part .text {
+    text-align: left;
+    position: absolute;
+    z-index: 999;
+    bottom: 80px;
+    left: 206px;
+}
+
+#banner2-part .text h2 {
+    font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 140%;
+    /* or 42px */
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 340px;
+}
+
+#banner2-part p {
+    font-family: "Brown Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 270px;
+}
+
+
+#banner2-part .banner-btn {
+    display: inline-block;
+    font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15.22px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    border:1px solid  #9EDDF9;
+    color: #0957A4;
+    background: #9EDDF9;
+    padding: 15px 30px;
+    margin-top: 40px;
+    transition: .4s;
+}
+#banner2-part .banner-btn:hover{
+    border:1px solid  #9EDDF9;
+    color:  #9EDDF9;
+    background: transparent;
+}
+
+/*==================================================
+                banner2 css end
+  ==================================================*/
+
+/*==================================================
+                access part css start
+  ==================================================*/
+#access-part {
+    padding: 30px 0;
+}
+#access-part .title{
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+#access-part .title h2 {
+    width: 720px;
+    margin: auto;
+}
+
+#access-part .text {
+    margin-bottom: 30px;
+}
+
+#access-part .text p {
+    font-family: "Brown Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+
+
+    text-align: center;
+
+    color: #000000;
+    width: 970px;
+    margin: auto;
+}
+
+#access-part .box {
+    width: 281px;
+    height: 150px;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+
+#access-part .box img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#access-part .box .overlay {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+ 
+    text-align: center;
+}
+
+
+#access-part .box .overlay p {
+    font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 8;
+
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+#access-part .slick-slide{
+    margin-right: 10px;
+  }
+  #access-part .box:hover .overlay{
+          background: rgba(0, 0, 0, 0.50);
+  }
+
+/*==================================================
+                access part css end
+  ==================================================*/
+
+
+
+/*==================================================
+                platform css start
+  ==================================================*/
+
+#platform-part {
+     padding-top: 60px;
+     padding-bottom: 50px;
+}
+#platform-part .title{
+    margin-bottom: 40px;
+}
+#platform-part .image img {
+    width: 95%;
+    height: 100%;
+}
+
+#platform-part .text ul li {
+
+    font-family: "Brown Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+   
+    margin-left: 5px;
+
+
+
+}
+
+
+#platform-part .text ul li i {
+    font-size: 4px;
+}
+
+
+
+/*==================================================
+                platform css end
+  ==================================================*/
+
+
+/*==================================================
+                comercial css end
+  ==================================================*/
+#comercial-part {
+    background: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+#comercial-part .image img {
+    width: 100%;
+    height: 100%;
+}
+
+#comercial-part .text {
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+#comercial-part .text h2 {
+
+    font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 140%;
+
+
+    color: #000000;
+    width: 500px;
+
+}
+
+
+#comercial-part .text p {
+
+    font-family: "Brown Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    width: 475px;
+
+
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+#comercial-part .text .com-btn {
+    display: inline-block;
+    font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #0957A4;
+    color: #FFFFFF;
+    background: #0957A4;
+    padding: 10px 20px;
+    transition: .4s;
+}
+
+#comercial-part .text .com-btn:hover {
+    color: #0957A4;
+    border: 1px solid #0957A4;
+    background: transparent;
+}
+
+/*==================================================
+                comercial css start
+  ==================================================*/
+
+
+
+/*==================================================
+                assets css start
+  ==================================================*/
+
+
+  #assets-part .title{
+      margin-bottom: 20px;
+ 
+  }
+#assets-part {
+    background: #F2F2F2;
+
+    padding-top: 60px;
+}
+
+#assets-part .box {
+    width: 281px;
+    height: 266px;
+    position: relative;
+    cursor: pointer;
+   
+
+}
+
+
+#assets-part .box img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#assets-part .box .overlay {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    text-align: center;
+    transition: .4s;
+}
+
+
+#assets-part .box .overlay p {
+    font-family: "Brown Bold";
+    font-size: 25px;
+    line-height: 10;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#assets-part .slick-slide{
+  margin-right: 10px;
+}
+#assets-part .box:hover .overlay{
+        background: rgba(0, 0, 0, 0.50);
+}
+/*==================================================
+                assets css end
+  ==================================================*/
+
+/*==================================================
+                cover css start
+  ==================================================*/
+
+
+
+#cover-part {
+    padding: 20px 0;
+}
+
+#cover-part .image img {
+    width: 100%;
+    height: 100%;
+}
+
+#cover-part .text {
+    margin-top: 260px;
+}
+
+#cover-part .text h3 {
+    font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 140%;
+    margin-bottom: 20px;
+
+
+    text-align: center;
+
+    color: #000000;
+}
+
+#cover-part .text ul {
+    list-style: none;
+    text-align: center;
+}
+
+#cover-part .text ul li {
+
+    font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+   
+
+    text-align: center;
+
+    color: #0957A4;
+
+
+}
+
+#cover-part .text ul li span{
+    display: inline-block;
+    color: #04AFE6;
+}
+
+#cover-part .main-box{
+    display: flex;
+    justify-content: space-between;
+}
+#cover-part .box {
+
+    background: #9EDDF9;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin-top: 30px;
+    width: 362px;
+
+
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+
+}
+
+#cover-part .box h3 {
+    font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+}
+
+#cover-part .box h3 span {
+    display: inline-block;
+    font-family: "Brown Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    /* or 135% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+
+/*==================================================
+                cover css end
+  ==================================================*/
+
+
+/*==================================================
+                power-part css start
+  ==================================================*/
+
+#power-part {
+    padding: 60px 0;
+}
+
+#power-part .box {
+    text-align: left;
+    background: #9EDDF9;
+
+    opacity: 0.9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 25px 30px;
+    margin-bottom: 30px;
+}
+#power-part .title{
+    margin-bottom: 40px;
+}
+#power-part .box h2 {
+    font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+
+    color: #000000;
+
+
+}
+
+#power-part .box ul {
+    margin-left: 16px;
+    margin-bottom: 0;
+}
+
+#power-part .box ul li {
+    font-family: "Brown Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 150% */
+
+
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*==================================================
+                power-part css end
+  ==================================================*/
+
+
+
+/*==================================================
+                video css start
+  ==================================================*/
+
+
+#video-part {
+    background: #F2F2F2;
+    text-align: center;
+    padding: 60px 0;
+
+}
+
+
+
+#video-part .title h2 {
+    color: #0957A4;
+}
+
+
+
+#video-part .box {
+    widows: 933px;
+    height: 447px;
+    position: relative;
+}
+
+#video-part .box .bg {
+    width: 100%;
+    height: 100%;
+}
+
+#video-part .box .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+#video-part .box .overlay img {
+    margin-top: 15%;
+    transform: scale(1);
+    transition: .4s;
+    cursor: pointer;
+}
+
+#video-part .box .overlay img:hover {
+    transform: scale(1.1);
+
+}
+
+
+
+/*==================================================
+                video css end
+  ==================================================*/
+
+
+
+
+/*==================================================
+                industry css start
+  ==================================================*/
+
+#industry-part {
+    padding: 80px 0;
+}
+
+
+#industry-part .title h2 {
+    color: #0957A4;
+    font-size: 29px;
+}
+
+
+#industry-part .box {
+    background: #F2F2F2;
+
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 40px 42px;
+    margin-bottom: 20px;
+
+
+}
+
+#industry-part .main {
+    display: flex;
+}
+
+#industry-part .icon {
+    width: 140px;
+
+
+}
+
+#industry-part .icon img {
+    margin-top: 10px;
+}
+
+#industry-part .text {
+    margin-left: 30px;
+}
+
+#industry-part .text h4 {
+    font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+#industry-part .text p {
+    font-family: "Brown Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 100% */
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+
+
+
+
+
+/*==================================================
+                industry css end
+  ==================================================*/
+
+/*==================================================
+                footer css start
+  ==================================================*/
+
+#footer-part {
+    background: url(../images/L1/footer-img.png) no-repeat center;
+    background-size: cover;
+    height: 650px;
+    position: relative;
+}
+
+#footer-part .shape1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+#footer-part .shape2 {
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+}
+
+#footer-part .box {
+    width: 380px;
+
+    background: #fff;
+    z-index: 99999;
+    position: absolute;
+    bottom: 30px;
+
+    padding: 20px;
+    text-align: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+#footer-part .box .head {
+    text-align: left;
+}
+
+#footer-part .box .head h3 {
+    font-family: "Brown Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+
+
+#footer-part .box .form-control {
+    border-radius: 0 !important;
+}
+
+#footer-part .box input {
+    font-family: "Brown Regular";
+    font-size: 16px;
+    line-height: 28px;
+    border: 1px solid #C9CCD4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+
+    color: #979797;
+
+}
+
+
+#footer-part .footer-btn {
+    display: inline-block;
+    font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background: #0957A4;
+    padding: 15px 130px;
+    ;
+
+}
+
+#footer-part .foot-label {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 15px;
+
+}
+
+#footer-part .check {
+    text-align: left !important;
+    margin-top: 20px;
+
+}
+
+#footer-part .check input {
+    border: 1px solid #C9CCD4;
+    color: #C9CCD4;
+
+}
+
+#footer-part .box2 {
+    position: absolute;
+    bottom: 131px;
+    right: 460px;
+    text-align: left;
+}
+
+#footer-part .box2 h3 {
+    font-family: "Brown Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 140%;
+    margin-bottom: 20px;
+
+
+    color: #FFFFFF;
+}
+
+#footer-part .box2 p {
+    font-family: "Brown Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+
+
+    color: #FFFFFF;
+    width: 330px;
+    
+}
+
+#footer-part .box3 {
+    bottom: 20px;
+    right: 484px;
+}
+
+#footer-part .box3 h3 {
+    width: 320px;
+}
+
+#footer-part .box3 p {
+    width: 318px;
+}
+
+
+
+
+/*==================================================
+                footer css end
+  ================================================== */
